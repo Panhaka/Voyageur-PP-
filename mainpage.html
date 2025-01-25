@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <title>Voyageur</title> 
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    
+    <!-- font awesome cdn link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="class-for-mainpage">
+
+<!-- header section starts -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+   
+    <a href="#" class="logo"><span>V</span>oyageur</a> 
+
+    <nav class="navbar">
+    <a href="#home">home</a>
+    <a href="#book">book</a>
+    <a href="#packages">packages</a>
+    <a href="#services">services</a>
+    <a href="#gallery">gallery</a>
+    <a href="#review">review</a>
+    <a href="#contact">contact</a>
+    </nav>
+    
+    <div class="icons">
+    <i class="fas fa-search" id="search-btn"></i>
+    <i class="fas fa-user" id="login-btn"></i>
+    </div>
+    
+    <form action="" class="search-bar-container">
+    <input type="search" id="search-bar" placeholder="search here..">
+    <label for="search-bar" class="fas fa-search"></label>
+    
+</form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form cointainer -->
+<div class="login-form-container">
+
+    <i class="fas fa-time" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">register now</a></p>
+    </form>
+</div>
+<!-- home section starts -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Are you having trouble finding a vacation spot?</h3>
+        <p>Join us as we explore new places</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="video01.mp4"></span>
+        <span class="vid-btn" data-src="https://assets.mixkit.co/videos/4646/4646-720.mp4"></span>
+        <span class="vid-btn" data-src="https://assets.mixkit.co/videos/4998/4998-720.mp4"></span>
+        <span class="vid-btn" data-src="https://assets.mixkit.co/videos/5016/5016-720.mp4"></span>
+        <span class="vid-btn" data-src="https://assets.mixkit.co/videos/40102/40102-720.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="video01.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+    <div class="row">
+
+        <div class="image">
+            <img src="https://cdn-icons-png.flaticon.com/512/5553/5553938.png" alt="">
+        </div>   
+        
+        <form action="">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            
+            <div class="inputBox">
+                <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                    <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                    <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+    </div>
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts -->
+
+<section class="packages" id="packages">
+
+<h1 class="heading">
+    <span>p</span>
+    <span>a</span>
+    <span>c</span>
+    <span>k</span>
+    <span>a</span>
+    <span>g</span>
+    <span>e</span>
+    <span>s</span>
+</h1>
+
+<div class="box-container">
+  
+    <div class="box">
+        <img src="https://i0.wp.com/www.cambodialifestyle.com/wp-content/uploads/2024/04/Siem-Reap-1.jpg?fit=1024%2C683&ssl=1" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>siem reap</h3>
+            <p>Siem Reap, a charming city in northwestern Cambodia, is renowned for its Angkor Wat temple complex, blending ancient history with modern comforts. It offers lively markets, chic cafes, vibrant nightlife, traditional Cambodian culture, scenic countryside, and Tonle Sap Lake villages.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="price"> 90.00$ <span>150.00$</span></div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="https://thereshegoesagain.org/wp-content/uploads/2018/03/one-pillar-pagoda-800x635.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>hanoi</h3>
+            <p>Hanoi, Vietnam's capital, blends tradition and modernity, boasting rich history, colonial architecture, ancient temples, and vibrant street markets. Its Old Quarter offers authentic Vietnamese food and iconic landmarks like Hoan Kiem Lake and the Temple of Literature.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="price"> 400.00$ <span>600.00$</span></div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+
+    <div class="box">
+    <img src="https://fcracer.com/wp-content/uploads/GFXS2917-JPEG-blog.jpg" alt="">
+    <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i>guangdong</h3>
+        <p>Guangdong, a southern China province, is renowned for its economic dynamism, cultural diversity, and Cantonese cuisine. Its capital, Guangzhou, is a trading hub with attractions like Canton Tower and Chen Clan Ancestral Hall.</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price"> 330.00$ <span>550.00$</span></div>
+        <a href="#" class="btn">book now</a>
+    </div>
+</div>
+
+<div class="box-container">
+  
+    <div class="box">
+        <img src="https://img.freepik.com/free-photo/beautiful-palm-tree-vivid-colors_23-2151591801.jpg" alt="">
+            <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i>los angeles</h3>
+            <p>Los Angeles, known as the "City of Angels," is a Southern California metropolis known for its entertainment industry, diverse culture, and sunny weather. It's home to Hollywood, iconic landmarks, and a melting pot of cultures, with stunning beaches and nightlife.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        <div class="price"> 2000.00$ <span>3000.00$</span></div>
+        <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+
+    <div class="box">
+    <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/05/03/15/marrakech-hero.jpg" alt="">
+    <div class="content">
+    <h3><i class="fas fa-map-marker-alt"></i>marrakech</h3>
+    <p>Marrakech, known as the "Red City" due to its red sandstone buildings, is a historic Moroccan city known for its medina, souks, Koutoubia Mosque, Jardin Majorelle, and Bahia Palace, offering a blend of old-world charm and modern luxury.</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price"> 1600.00$ <span>2100.00$</span></div>
+        <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+
+    <div class="box">
+    <img src="https://i0.wp.com/arte8lusso.net/wp-content/uploads/2020/01/PHOTO-2020-01-29-13-37-40-1.jpg?fit=1280%2C744&ssl=1" alt="">
+    <div class="content">
+    <h3><i class="fas fa-map-marker-alt"></i>milan</h3>
+    <p>Milan, Italy's fashion and design capital, is a cosmopolitan city with iconic landmarks like Duomo di Milano, La Scala opera house, and Sforza Castle. It's a hub for art, culture, and high-end boutiques.</p>
+    <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="price"> 2000.00$ <span>3000.00$</span></div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    
+    </div>
+
+</section>                   
+                
+<!-- packages section ends -->
+
+<!-- services section starts -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Comfort and quality that won’t break the bank.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>Savor the flavor—where every bite and sip is a delight!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guide</h3>
+            <p>Your safety is our priority—stay informed, stay prepared, stay secure.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>Explore the wonders of the world—one adventure at a time.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>Experience the thrill of speed—your journey, faster than ever.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Embrace the thrill of the unknown—adventure awaits at every turn.</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section ends -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+    
+    <div class="box-container">
+        
+        <div class="box">
+            <img src="https://img.freepik.com/premium-photo/amazing-panorama-hanoi-vietnam_1020514-32806.jpg" alt="">
+            <div class="content">
+              <h3>Hanoi, Vietnam</h3>
+              <p>Heart of Vietnam</p>
+              <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://asset.tovtrip.com//uploads/0001/1560/2023/04/28/31.jpg" alt="">
+            <div class="content">
+             <h3>Siem Reap, Cambodia</h3>
+             <p>Rich history</p>
+             <a href="#" class="btn">see more</a>
+    </div>
+</div>
+    <div class="box">
+        <img src="https://www.privateupgrades.com/blog/wp-content/uploads/2021/12/oberoi-marrakech-15.jpg" alt="">
+        <div class="content">
+             <h3>Marrackech, Morocco</h3>
+             <p>Lion City of Morcocco</p>
+             <a href="#" class="btn">see more</a>
+    </div>
+</div>
+    <div class="box">
+        <img src="https://www.uniworld.com/dfsmedia/0abe5a49082f4fa787b315e25f74cead/8545-50034/options/keepaspectratio/rf-ss-it-venice-524279491" alt="">
+        <div class="content">
+             <h3>Venice, Italy</h3>
+             <p>Romantic, historic, enchanting.</p>
+             <a href="#" class="btn">see more</a>
+    </div>
+</div>
+    <div class="box">
+        <img src="https://lp-cms-production.imgix.net/features/2018/02/GettyImages-802758686-9587fec148c7.jpg" alt="">
+        <div class="content">
+             <h3>Los Angeles, a city in California</h3>
+             <p>Where dreams meet the sky.</p>
+             <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<div class="box">
+    <img src="https://media.licdn.com/dms/image/v2/C5112AQHPDheKAz7TEw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1527572938181?e=2147483647&v=beta&t=CRvMADoLfFNW1WNgehK1TbtAfikhM21dgAhxTzoxsDg" alt="">
+    <div class="content">
+      <h3>Guangdong, China</h3>
+      <p>Vibrant culture, thriving innovation.</p>
+      <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<div class="box">
+    <img src="https://th-thumbnailer.cdn-si-edu.com/gW8MBAE7XRSKb7bMWzKPxxEiKdw=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/a1/88/a188a6f4-143d-4df2-b955-f60e7872b307/gg7p00.jpg" alt="">
+    <div class="content">
+      <h3>Siem Reap, Cambodia</h3>
+      <p>8th wonder of the world</p>
+      <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<div class="box">
+    <img src="https://griffithobservatory.org/wp-content/uploads/2021/12/cameron-venti-6QDvwq2Fjsc-unsplash-scaled.jpg" alt="">
+    <div class="content">
+      <h3>California, USA</h3>
+      <p>Where stars shine and dreams are made.</p>
+      <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<div class="box">
+    <img src="https://media.cntraveller.com/photos/656dfc28341940048b149e58/master/w_1600%2Cc_limit/Shopping_Milan_2_December23_GettyImages-1669837323.jpg" alt="">
+    <div class="content">
+      <h3>Milan, Italy</h3>
+      <p>Fashion, luxurious & historic.</p>
+      <a href="#" class="btn">see more</a>
+    </div>
+</div>
+</div>
+</section>
+
+<!-- gallery section ends-->
+
+<!-- review section starts -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+        <span>s</span>
+    </h1>
+
+    <div class="swiper review-slider">
+        
+        <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+         <div class="box">
+            <img src="https://faroutmagazine.co.uk/static/uploads/1/2023/02/Leonardo-DiCaprio-Far-Out-Magazine.jpg" alt="">
+            <h3>Leonardo DiCaprio</h3>
+            <p>Excellent Service and Attention to Detail!" "I had an amazing experience planning my vacation with Voyageur. The team was incredibly helpful, listening to my needs and offering perfect suggestions for my trip. Everything was well-organized, and I felt supported throughout. Highly recommend!</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+         </div>
+    </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="box">
+           <img src="https://hips.hearstapps.com/hmg-prod/images/actress-marilyn-monroe-poses-for-a-portrait-in-circa-1952-news-photo-1664823877.jpg?crop=1xw:0.59367xh;center,top&resize=1200:*" alt="">
+           <h3>Marilyn Monroe</h3>
+           <p>A Stress-Free and Enjoyable Trip!" "Thanks to Voyageur, I had one of the most relaxing and seamless vacations ever. The itinerary was carefully tailored, and every detail was taken care of—from flights to activities. I could just enjoy my time away without worrying about anything!</p>
+           <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+        </div>
+    </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="box">
+           <img src="https://www.hollywoodreporter.com/wp-content/uploads/2015/03/andy_lau.jpg" alt="">
+           <h3>Andy Lau</h3>
+           <p>Above and Beyond Expectations!" "From start to finish, the service was exceptional. The travel agents at Voyageur took the time to understand exactly what I was looking for and created an unforgettable experience. It was my best trip yet!</p>
+           <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+        </div>
+    </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="box">
+           <img src="https://img.allfootballapp.com/www/M00/6A/D3/720x-/-/-/rB8CLF4WqGiASws-AAEu3MuC0mk554.jpg" alt="">
+           <h3>Scarlett Gartmann</h3>
+           <p>Highly Recommended for Custom Travel Plans!" "I've worked with other agencies before, but the personalized service at Voyageur stood out. They really took the time to create a custom travel plan that fit my budget and preferences. I felt like a VIP from the moment I contacted them.</p>
+           <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+        </div>
+    </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="box">
+           <img src="https://preview.redd.it/sophia-weber-v0-n45frsu5eirc1.png?auto=webp&s=cf249df31c4c1eaa7272d528beb3fe6071f53bdd" alt="">
+           <h3>Sophia Weber</h3>
+           <p>Perfect for First-Time Travelers!" "As a first-time traveler, I was nervous about the process, but Voyageur made everything so easy. The team answered all my questions, provided great recommendations, and ensured I had all the information I needed. I couldn’t have asked for a better experience.</p>
+           <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+        </div>
+    </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="box">
+           <img src="https://media.cna.al/cna.al/media3/-640-0-1730142304x450549323-18370665667102216-8953399888098456706-n-664.jpg" alt="">
+           <h3>Loredana Zefi</h3>
+           <p>Exceptional Value for Money!" "I was amazed at how much value I got for the price! Voyageur not only found me amazing deals but also helped me discover hidden gems at my destination. Their expertise truly saved me time and money while delivering a trip that exceeded my expectations.</p>
+           <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+        </div>
+    </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="box">
+           <img src="https://showbizvietnam.vn/wp-content/uploads/2024/02/QuynhTruong_4.jpg" alt="">
+           <h3>Quynh Truong</h3>
+           <p>I had the pleasure of experiencing exceptional hospitality during my stay. From the moment I arrived, the staff made me feel welcome and ensured my comfort at every turn. The attention to detail was remarkable, and it was evident that they genuinely cared about creating a memorable experience.</p>
+           <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+        </div>
+    </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="box">
+           <img src="https://vergewiki.com/uploads/biography/2024/5/9/Aaliyah-1715263557252.JPG" alt="">
+           <h3>Aaliyah</h3>
+           <p>Whether it was offering personalized recommendations, providing quick assistance, or simply going the extra mile with thoughtful gestures, every interaction felt warm and sincere. I left with a smile on my face, and I will definitely be returning because of the outstanding hospitality!</p>
+           <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+        </div>
+    </div>
+    </div>
+    </div>
+</section>
+
+<!-- review section ends-->
+
+<!-- contact section starts -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading">
+       <span>c</span>
+       <span>o</span>
+       <span>n</span>
+       <span>t</span>
+       <span>a</span>
+       <span>c</span>
+       <span>t</span>
+    </h1>
+
+    <div class="row">
+
+       <div class="image">
+        <img src="https://i.pinimg.com/originals/e2/b1/74/e2b174b291c12e82ce697396e089c494.jpg" alt="">
+       </div>
+
+    <form action="">
+     <div class="inputBox">
+         <input type="text" placeholder="name">
+         <input type="email" placeholder="email">
+      </div>
+      <div class="inputBox">
+            <input type="number" placeholder="number">
+            <input type="text" placeholder="subject">
+      </div>
+      <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+      <input type="submit" class="btn" value="send message">
+    </form>
+</section>
+
+
+<!-- contact section ends -->
+
+<!-- footer section starts-->
+
+<section class="footer">
+
+<div class="box-container">
+
+    <div class="box">
+        <h3>about us</h3>
+        <p>At Voyageur, we believe travel is more than just a destination—it's an experience. With personalized service and expert guidance, we help you explore the world with ease, creating memories that last a lifetime. Whether it's a relaxing getaway, an adventurous trek, or a cultural journey, we're here to make your travel dreams come true</p>
+    </div>
+    <div class="box">
+        <h3>branch locations</h3>
+        <a href="#">Cambodia</a>
+        <a href="#">Vietnam</a>
+        <a href="#">China</a>
+        <a href="#">United States of America</a>
+        <a href="#">Morocco</a>
+        <a href="#">Italy</a>
+    </div>
+    <div class="box">
+        <h3>quick links</h3>
+        <a href="#">home</a>
+        <a href="#">book</a>
+        <a href="#">packages</a>
+        <a href="#">services</a>
+        <a href="#">gallery</a>
+        <a href="#">reviews</a>
+        <a href="#">contact</a>
+    </div>
+    <div class="box">
+        <h3>follow us</h3>
+        <a href="#">facebook</a>
+        <a href="#">instagram</a>
+        <a href="#">Telegram</a>
+        <a href="#">X</a>
+        <a href="#">linkedin</a>
+    </div>
+
+</div>
+
+<h1 class="credit"> created by <span> Lim Panhaka </span> all rights reserved </h1>
+
+</section>
+<!-- footer section ends -->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- custom js file link-->
+<script src="script.js"></script>
+
+</body>
+</html>
